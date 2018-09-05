@@ -19,6 +19,8 @@ class TemporaryUpload extends Model implements HasMedia
 
     public static function boot()
     {
+        parent::boot();
+
         self::creating(function (TemporaryUpload $temporaryUpload) {
             if ($temporaryUpload->upload_id !== null) {
                 return;
