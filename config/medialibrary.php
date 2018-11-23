@@ -47,6 +47,7 @@ return [
     ],
 
     'responsive_images' => [
+        'generator' => Spaite\MediaLibrary\ResponsiveImages\ResponsiveImageGenerator::class,
 
         /*
         * This class is responsible for calculating the target widths of the responsive

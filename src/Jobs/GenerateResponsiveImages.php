@@ -7,7 +7,6 @@ use Spatie\MediaLibrary\Models\Media;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Spatie\MediaLibrary\ResponsiveImages\ResponsiveImageGenerator;
 
 class GenerateResponsiveImages implements ShouldQueue
 {

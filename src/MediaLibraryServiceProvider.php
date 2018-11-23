@@ -51,6 +51,7 @@ class MediaLibraryServiceProvider extends ServiceProvider
 
         $this->app->bind(Filesystem::class, Filesystem::class);
 
+        $this->app->bind(ResponsiveImageGenerator::class, config('medialibrary.responsive_images.generator'));
         $this->app->bind(WidthCalculator::class, config('medialibrary.responsive_images.width_calculator'));
         $this->app->bind(TinyPlaceholderGenerator::class, config('medialibrary.responsive_images.tiny_placeholder_generator'));
 

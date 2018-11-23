@@ -16,7 +16,6 @@ use Spatie\MediaLibrary\ImageGenerators\ImageGenerator;
 use Spatie\MediaLibrary\Conversion\ConversionCollection;
 use Spatie\MediaLibrary\Events\ConversionHasBeenCompleted;
 use Spatie\MediaLibrary\Helpers\File as MediaLibraryFileHelper;
-use Spatie\MediaLibrary\ResponsiveImages\ResponsiveImageGenerator;
 
 class FileManipulator
 {
